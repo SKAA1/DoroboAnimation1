@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.hoge filter=lfs diff=lfs merge=lfs -text
+*.fuga filter=lfs diff=lfs merge=lfs -text
+*.piyo filter=lfs diff=lfs merge=lfs -text
